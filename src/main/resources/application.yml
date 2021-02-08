@@ -1,1 +1,13 @@
+openweather:
+  service:
+    id: USE_PROD_ID
+    url: http://api.openweathermap.org
 
+feign:
+  client:
+    config:
+      default:
+        connectTimeout: 5000
+        readTimeout: 10000
+        loggerLevel: BASIC
+        errorDecoder: com.assignment.spring.client.OpenWeatherErrorDecoder

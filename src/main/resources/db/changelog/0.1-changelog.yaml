@@ -1,0 +1,28 @@
+databaseChangeLog:
+- changeSet:
+    id: init-weather
+    author: Masoud
+    changes:
+    - createTable:
+        tableName: weather
+        columns:
+          - column:
+              name: id
+              type: bigint
+              autoIncrement: true
+              constraints:
+                nullable: false
+                primaryKey: true
+          - column:
+              name: city
+              type: varchar(255)
+              constraints:
+                nullable: false
+          - column:
+              name: country
+              type: varchar(255)
+              constraints:
+                nullable: false
+          - column:
+              name: temperature
+              type: number

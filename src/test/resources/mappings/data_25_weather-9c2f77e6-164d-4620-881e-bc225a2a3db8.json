@@ -1,0 +1,25 @@
+{
+  "id" : "9c2f77e6-164d-4620-881e-bc225a2a3db8",
+  "name" : "data_25_weather",
+  "request" : {
+    "url" : "/data/2.5/weather?q=notFound&APPID=TEST",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 404,
+    "body" : "{\"cod\":\"404\",\"message\":\"city not found\"}",
+    "headers" : {
+      "Server" : "openresty",
+      "Date" : "Sun, 07 Feb 2021 19:42:35 GMT",
+      "Content-Type" : "application/json; charset=utf-8",
+      "Connection" : "keep-alive",
+      "X-Cache-Key" : "/data/2.5/weather?APPID=TEST&q=notfound",
+      "Access-Control-Allow-Origin" : "*",
+      "Access-Control-Allow-Credentials" : "true",
+      "Access-Control-Allow-Methods" : "GET, POST"
+    }
+  },
+  "uuid" : "9c2f77e6-164d-4620-881e-bc225a2a3db8",
+  "persistent" : true,
+  "insertionIndex" : 6
+}

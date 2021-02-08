@@ -1,0 +1,25 @@
+{
+  "id" : "e2c5e947-194e-45cb-b1eb-527023e72f70",
+  "name" : "data_25_weather",
+  "request" : {
+    "url" : "/data/2.5/weather?q=London&APPID=TEST",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"coord\":{\"lon\":-0.1257,\"lat\":51.5085},\"weather\":[{\"id\":501,\"main\":\"Rain\",\"description\":\"moderate rain\",\"icon\":\"10n\"}],\"base\":\"stations\",\"main\":{\"temp\":272.96,\"feels_like\":265.75,\"temp_min\":272.04,\"temp_max\":273.71,\"pressure\":1004,\"humidity\":74},\"visibility\":10000,\"wind\":{\"speed\":6.69,\"deg\":50},\"clouds\":{\"all\":75},\"dt\":1612726423,\"sys\":{\"type\":1,\"id\":1414,\"country\":\"GB\",\"sunrise\":1612682938,\"sunset\":1612717223},\"timezone\":0,\"id\":2643743,\"name\":\"London\",\"cod\":200}",
+    "headers" : {
+      "Server" : "openresty",
+      "Date" : "Sun, 07 Feb 2021 19:41:01 GMT",
+      "Content-Type" : "application/json; charset=utf-8",
+      "Connection" : "keep-alive",
+      "X-Cache-Key" : "/data/2.5/weather?APPID=TEST&q=london",
+      "Access-Control-Allow-Origin" : "*",
+      "Access-Control-Allow-Credentials" : "true",
+      "Access-Control-Allow-Methods" : "GET, POST"
+    }
+  },
+  "uuid" : "e2c5e947-194e-45cb-b1eb-527023e72f70",
+  "persistent" : true,
+  "insertionIndex" : 7
+}
